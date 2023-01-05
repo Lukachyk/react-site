@@ -22,8 +22,8 @@ export default class Header extends Component {
           sticky="top"
           collapseOnSelect
           expand="md"
-          bg="primary"
-          variant="light"
+          bg="dark"
+          variant="dark"
         >
           <Container>
             <Navbar.Brand href="/">
