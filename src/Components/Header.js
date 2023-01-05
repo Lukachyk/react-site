@@ -44,13 +44,13 @@ export default class Header extends Component {
                 <Nav.Link href="/contacts">Contacts</Nav.Link>
                 <Nav.Link href="/blog">Blog</Nav.Link>
               </Nav>
-              <Form inline>
+              <Form className="d-flex">
                 <FormControl
                   type="text"
                   placeholder="Search"
                   className="mr-sm-2"
                 />
-                <Button variant="outline-info">Search</Button>
+                <Button variant="outline-secondary">Search</Button>{" "}
               </Form>
             </Navbar.Collapse>
           </Container>
