@@ -10,7 +10,7 @@ import {
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../Pages/Home";
 import Contacts from "../Pages/Contacts";
-import Blog from "../Pages/Blog";
+import Blog from "../Pages/Blog.jsx";
 import About from "../Pages/About";
 import logo from "./logo192.png";
 

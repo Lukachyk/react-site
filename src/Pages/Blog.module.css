@@ -1,0 +1,18 @@
+.gridBody {
+  display: grid;
+
+  grid-template-columns: 150px 2fr 1fr;
+  grid-template-rows: 150px 150px auto;
+  grid-column-gap: 20px;
+}
+
+.gridItem {
+  margin: 20px;
+}
+h5.cardTitel {
+  text-align: center;
+  margin-top: 5px;
+}
+.gridItem img {
+  margin-bottom: 20px;
+}
