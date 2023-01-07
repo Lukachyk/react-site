@@ -17,8 +17,7 @@ import logo from "./logo192.png";
 export default class Header extends Component {
   render() {
     return (
-      <HashRouter basename={process.env.PUBLIC_URL}>
-        {/* <BrowserRouter> */}
+      <BrowserRouter>
         <Navbar
           sticky="top"
           collapseOnSelect
@@ -62,8 +61,7 @@ export default class Header extends Component {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
-        {/* </BrowserRouter> */}
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
