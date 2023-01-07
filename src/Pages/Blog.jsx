@@ -1,6 +1,5 @@
-import React, { Component } from "react";
-import { Col, Container, Row, Card, ListGroup } from "react-bootstrap";
-import { Tab } from "react-bootstrap";
+import React from "react";
+import { Card, ListGroup } from "react-bootstrap";
 import s from "./Blog.module.css";
 
 class Blog extends React.Component {

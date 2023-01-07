@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { Container, Row } from "react-bootstrap";
-import CarouselBox from "../Components/CarouselBox";
 import Card from "react-bootstrap/Card";
-import { CardGroup } from "react-bootstrap";
-import { Button } from "react-bootstrap";
+import CarouselBox from "../Components/CarouselBox";
+import { Container, Row, CardGroup, Button } from "react-bootstrap";
 
 export class Home extends Component {
   render() {
@@ -36,7 +34,7 @@ export class Home extends Component {
                 {" "}
                 <Card>
                   <Card.Img
-                    class="card border-secondary mb-3"
+                    class="card border-secondary"
                     variant="top"
                     src="https://images.pexels.com/photos/6774143/pexels-photo-6774143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   />
@@ -60,7 +58,6 @@ export class Home extends Component {
                   />
                   <Card.Body>
                     <Card.Title>Derector</Card.Title>
-
                     <Card.Text>
                       This is a longer card with supporting text below as a
                       natural lead-in to additional content. This content is a
