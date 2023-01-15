@@ -7,7 +7,7 @@ import {
   Form,
   Button,
 } from "react-bootstrap";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../Pages/Home";
 import Contacts from "../Pages/Contacts";
 import Blog from "../Pages/Blog.jsx";
@@ -17,7 +17,7 @@ import logo from "./logo192.png";
 export default class Header extends Component {
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter basename="/">
         <Navbar
           sticky="top"
           collapseOnSelect
@@ -57,11 +57,11 @@ export default class Header extends Component {
         </Navbar>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contacts" element={<Contacts />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/about/" element={<About />} />
+          <Route path="/contacts/" element={<Contacts />} />
+          <Route path="/blog/" element={<Blog />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
